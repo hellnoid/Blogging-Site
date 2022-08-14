@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        table,td,tr{
+            border: 2px solid rgb(250, 209, 122);
+            border-radius: 5px;
+            padding: 8px;
+            margin: 10px;
+        }
+        #tab{
+            display: flex;
+            justify-content: center;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(245, 241, 241, 0.918);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="body"></div>
+    <div id="tab">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+            <!-- <tr>
+                <th>data.id</th>
+                <th>data.Title</th>
+                <th>data.Author</th>
+                <th><button>View</button></th>
+                <th><button>Edit</button></th>
+                <th><button>Delete</button></th>
+            </tr> -->
+        </tbody>
+
+    </table>
+    </div>
+</body>
+</html>
+<script src="index.js" type="module"></script>
+ <!-- json-server --watch db.json  -->

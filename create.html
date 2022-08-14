@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A Blog</title>
+    <style>
+        #navbar{
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(245, 241, 241, 0.918);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        #blogcontent{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        #blogcontent>textarea{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="body"></div>
+    <div id="blogcontent">
+        <textarea placeholder="Enter Title" name="" id="title" cols="20" rows="1"></textarea>
+        <textarea placeholder="Write content" name="" id="boda" cols="60" rows="10"></textarea>
+        <textarea placeholder="Author Name" name="" id="author" cols="25" rows="1"></textarea>
+        <button id="Submit">Submit</button>
+    </div>
+</body>
+</html>
+<script src="create.js" type="module"></script>
